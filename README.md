@@ -1,9 +1,5 @@
 # Algoritmos em Grafos
 
-##Implementação do trabalho de algoritmos em grafos
-
-# Algoritmos em Grafos
-
 ## Implementação do Trabalho de Algoritmos em Grafos
 
 O trabalho consiste na implementação do algoritmo DFS (Depth-First Search ou busca em profundidade), que é utilizado para percorrer estruturas de dados em forma de grafo. O funcionamento do DFS é relativamente simples:
