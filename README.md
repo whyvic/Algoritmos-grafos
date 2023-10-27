@@ -12,3 +12,5 @@ O trabalho consiste na implementação do algoritmo DFS (Depth-First Search ou b
 
 O DFS é uma técnica importante para percorrer grafos e encontrar informações relevantes. Ele é amplamente utilizado em algoritmos de busca e análise de conectividade em grafos.
 
+[link utel](https://www.ime.usp.br/~pf/algoritmos_para_grafos/aulas/dfs.html)
+
