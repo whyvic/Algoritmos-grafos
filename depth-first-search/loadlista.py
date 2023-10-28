@@ -1,5 +1,5 @@
 def loadlista():
-    arquivo = open('grafos/g1.txt', 'r')
+    arquivo = open('grafos/g6.txt', 'r')
     lista = arquivo.readlines()
     for i in range(len(lista)):
         linha = lista[i].split()
