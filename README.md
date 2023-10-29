@@ -6,7 +6,7 @@ O trabalho consiste na implementação do algoritmo DFS (Depth-First Search ou b
 
 1. Inicialização: Um nó inicial é escolhido com base em alguma heurística. No nosso trabalho, a heurística escolhida é o vértice com o maior grau de saída, que será o vértice/nó inicial.
 
-2. Exploração: A partir desse vértice inicial, escolhemos um dos seus vizinhos, ou seja, vértices que pertencem à lista de adjacência do vértice inicial, e verificamos se ele está na cor "branca". Se estiver na cor "branca", ele é marcado como "cinza" e a função DFS é chamada recursivamente para explorar esse vértice e seus vizinhos. Esse processo continua até que não haja mais vértices "brancos" a serem explorados, quando isso acontece o vertice é marcado como "preto.
+2. Exploração: A partir desse vértice inicial, escolhemos um dos seus vizinhos, ou seja, vértices que pertencem à lista de adjacência do vértice inicial, e verificamos se ele está na cor "branca" (lembrando que o critério de decisão para a escolha do vizinho "branco" no trabalho é em ordem alfabetica e/ou crescente). Se estiver na cor "branca", ele é marcado como "cinza" e a função DFS é chamada recursivamente para explorar esse vértice e seus vizinhos. Esse processo continua até que não haja mais vértices "brancos" a serem explorados, quando isso acontece o vertice é marcado como "preto.
 
 3. Backtracking: Quando chegamos a um vértice que não possui mais nenhum vizinho "branco" a ser explorado, fazemos o "backtracking", ou seja, retornamos até o último ponto onde existem vizinhos "brancos" a serem explorados. Esse processo continua até que toda a árvore esteja completamente explorada e todos os vértices estejam marcados como "preto".
 
